@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0 15;
+        }
+        body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(120, 33, 179);
+    color: white;}
+    table{
+    border-color: rgb(255, 0, 255);}  
+    ul li{
+        color: rgb(255, 255, 255);
+        list-style: none;
+        
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer{
+        background-color: rgb(140, 0, 255);
+        color: rgb(255, 0, 212);
+    }
+    button
+    {
+        width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#a200ff;
+    font-size: 18px;
+    color: #00ccff;
+    cursor: pointer;
+    }
+    input{
+        background-color: rgb(255, 0, 191);
+        border-color: rgb(255, 255, 255);
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <div class="header" align="center" id="Home" style="padding: 25px; color: rgb(119, 5, 212); background-color: rgb(161, 72, 233);"> 
+        <h1>SELAMAT DATANG</h1>
+        <h3>Silakan Login di Bawah Ini!</h3>
+    </div>
+    <br>
+    <h3 align="center">
+        <ul>
+            <a href="#Home"><li>Home</li></a>
+            <a href=https://www.instagram.com/_henz.g/><li>About</li></a>
+            <a href=https://www.instagram.com/_henz.g/><li>Contact</li></a> 
+        </ul>
+    </h3>
+    <table border="2" align="center" cellpadding="20">
+        <form action="proses.php" method="POST">
+            <tr>
+                <td colspan="2" align="center" style="background-color: rgb(255, 0, 191);">LOGIN</td>
+            </tr>
+            <tr>
+                <td>Username/ID:</td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><button>Log in</button></td>
+            </tr>
+        </form>
+    </table>
+    <h6 align="right">*Username dan Password sama</h6>
+    <br>
+    <p align="center"><b>Terima Kasih atas Waktunya!</b></p> 
+    <div class="footer" align="center" style="padding: 10px;">
+        <h3>COPYRIGHT © by HENRY SALIM</h3>
+    </div>
+</body>
+</html>
